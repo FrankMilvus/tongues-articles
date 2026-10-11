@@ -9,4 +9,12 @@ transcription. Flutter on the client, FastAPI + PostgreSQL on the server.
 
 ## Posts
 
-- [We're now publishing every tonGues change on dev.to](articles/2026-10-11-announcing-devto.html) — 2026-10-11
+{% assign posts = site.pages | where_exp: "p", "p.path contains 'articles/'" | sort: "path" | reverse %}
+<ul class="post-list">
+{% for post in posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
