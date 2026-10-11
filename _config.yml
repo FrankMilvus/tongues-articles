@@ -1,0 +1,9 @@
+title: tonGues articles
+description: Write-ups about building tonGues — a language-exchange messenger.
+theme: minima
+url: "https://frankmilvus.github.io"
+baseurl: "/tongues-articles"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
