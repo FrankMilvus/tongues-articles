@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: We're now publishing every tonGues change on dev.to
 description: A short note about our new habit — writing up every change we ship in tonGues, in public.
 tags: devto, flutter, fastapi, webdev
