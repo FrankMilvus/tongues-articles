@@ -13,9 +13,9 @@ transcription. Flutter on the client, FastAPI + PostgreSQL on the server.
 <ul class="post-list" style="list-style:none;padding:0;">
 {% for post in posts %}
   <li style="margin-bottom:1.75rem;">
-    {%- if post.cover_image %}
+    {%- if post.image %}
     <a href="{{ post.url | relative_url }}">
-      <img src="{{ post.cover_image }}" alt="{{ post.title | escape }}"
+      <img src="{{ post.image }}" alt="{{ post.title | escape }}"
            style="width:100%;max-width:420px;height:auto;border-radius:6px;display:block;margin-bottom:.5rem;">
     </a>
     {%- endif %}

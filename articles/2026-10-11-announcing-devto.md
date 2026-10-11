@@ -4,7 +4,7 @@ title: We're now publishing every tonGues change on dev.to
 description: A short note about our new habit — writing up every change we ship in tonGues, in public.
 tags: devto, flutter, fastapi, webdev
 published: true
-cover_image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/announcing-devto.png
+image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/announcing-devto.png
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-announcing-devto.html
 ---
 
