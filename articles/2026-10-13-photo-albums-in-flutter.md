@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Building Telegram-style photo albums in Flutter
-description: Building Telegram-style photo albums in Flutter: how tonGues layers an album group key over a one-row-per-media model, with an aspect-aware grid.
+title: Building photo albums in Flutter
+description: Building photo albums in Flutter: how tonGues layers an album group key over a one-row-per-media model, with an aspect-aware grid.
 tags: flutter, dart, ux, showdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-photo-albums-in-flutter.html
@@ -9,8 +9,8 @@ image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/image
 ---
 
 Multi-select a handful of photos in **tonGues** and they land as a single grid
-bubble — one caption, one timestamp, one tick, one notification — the way they do
-in Telegram. That's **Telegram-style photo albums**, and it's the feature we
+bubble — one caption, one timestamp, one tick, one notification — instead of a
+full-size bubble per image. That's the **album bubble**, and it's the feature we
 shipped this week on top of a messenger that, until now, was built entirely around
 one image per message.
 

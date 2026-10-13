@@ -10,8 +10,8 @@ image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/image
 
 Open a friend's profile — or a group's info screen — and you can now browse every
 photo, video, document and link the two participants have exchanged. We call it the
-**shared media gallery**, and it's the Telegram/WhatsApp "Shared Media" idea, scoped
-tightly to the conversation between you.
+**shared media gallery**, a familiar idea from other messengers, scoped tightly to
+the conversation between you.
 
 The important word there is *conversation-scoped*. The gallery is not a cross-chat
 index of everything a user ever sent; it's the media belonging to one thread. On a
