@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Staying signed in on Linux when the keyring doesn't survive a reboot
-description: Flutter Linux secure storage that survives a reboot: how we prove the OS keyring is durable before dropping the plaintext session fallback.
+description: "Flutter Linux secure storage that survives a reboot: how we prove the OS keyring is durable before dropping the plaintext session fallback."
 tags: flutter, linux, security, showdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-linux-keyring-session-durability.html

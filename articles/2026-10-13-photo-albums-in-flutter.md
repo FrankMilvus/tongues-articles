@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building photo albums in Flutter
-description: Building photo albums in Flutter: how tonGues layers an album group key over a one-row-per-media model, with an aspect-aware grid.
+description: "Building photo albums in Flutter: how tonGues layers an album group key over a one-row-per-media model, with an aspect-aware grid."
 tags: flutter, dart, ux, showdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-photo-albums-in-flutter.html
