@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replacing a Flutter app bar with a FAB action stack
-description: How we rebuilt the tonGues notification center without a toolbar — a floating action button stack, a zero-height AppBar, and unique hero tags.
+description: "How we rebuilt the tonGues notification center without a toolbar: a FAB action stack, a zero-height AppBar, unique hero tags, and greyed-out disabled actions."
 tags: flutter, ux, showdev, webdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-replacing-a-flutter-app-bar-with-a-fab-action-stack.html
@@ -85,20 +85,18 @@ floatingActionButton: Column(
   mainAxisSize: MainAxisSize.min,
   crossAxisAlignment: CrossAxisAlignment.end,
   children: [
-    if (_items.isNotEmpty)
-      AppFab(
-        heroTag: 'notif_clear_all',
-        onPressed: _confirmClearAll,
-        tooltip: l10n.clearAll,
-        icon: const Icon(Icons.delete_sweep_outlined),
-      ),
-    if (_items.any((n) => !n.isRead))
-      AppFab(
-        heroTag: 'notif_mark_all_read',
-        onPressed: _markAllRead,
-        tooltip: l10n.markAllRead,
-        icon: const Icon(Icons.done_all),
-      ),
+    AppFab(
+      heroTag: 'notif_clear_all',
+      onPressed: _items.isNotEmpty ? _confirmClearAll : null,
+      tooltip: l10n.clearAll,
+      icon: const Icon(Icons.delete_sweep_outlined),
+    ),
+    AppFab(
+      heroTag: 'notif_mark_all_read',
+      onPressed: _items.any((n) => !n.isRead) ? _markAllRead : null,
+      tooltip: l10n.markAllRead,
+      icon: const Icon(Icons.done_all),
+    ),
     AppFab(
       heroTag: 'notif_back',
       onPressed: () => Navigator.of(context).pop(),
@@ -111,10 +109,11 @@ floatingActionButton: Column(
 
 Two deliberate choices there:
 
-- **Back is last, so it never moves.** The other two only appear when there is
-  something to act on — clear all needs a list, mark all read needs an unread
-  item. Putting back at the bottom of the column means it stays put while the
-  buttons above it come and go, instead of shuffling up and down.
+- **Nothing moves.** All three buttons are always mounted, so the stack's layout
+  is fixed. When an action has nothing to act on — clear all on an empty list,
+  mark all read when everything is already read — it stays put and greys out
+  instead of vanishing. A button that comes and goes makes the one below it
+  jump, and that motion is exactly what makes a UI feel unstable.
 - **The list gets out of the way.** The FAB stack floats over the content, so the
   list carries bottom padding equal to roughly its height. Without it, the last
   notification sits under the buttons.
@@ -124,6 +123,20 @@ in the brand colour over the surface, with a brand-coloured icon. Routing every
 FAB through it is what keeps the app from drifting into a mix of Material's tonal
 default (which reads as a rounded square in a different colour) and the house
 style.
+
+Passing `null` for `onPressed` is the idiomatic way to disable a Material button,
+and it does make the FAB non-tappable — but it does **not** grey it out.
+`FloatingActionButton` only falls back to its disabled colours when you leave
+`backgroundColor` and `foregroundColor` unset; set both explicitly, as the house
+style does, and a disabled FAB keeps the full brand colour — looking enabled while
+doing nothing. So `AppFab` reads `onPressed == null` itself and swaps to muted
+surface-variant greys for the outline and the icon:
+
+```dart
+final enabled = onPressed != null;
+final accent = enabled ? colors.primary : colors.onSurfaceVariant;
+final border = enabled ? colors.primary : colors.outlineVariant;
+```
 
 ## Gotcha #1: two FABs on a route trip the hero-tag check
 
@@ -161,10 +174,11 @@ instead of a fifth translation that can drift.
 ## The result
 
 The notification center is now a clean list with three outlined circles parked in
-thumb range: **back**, **mark all read**, and above it **clear all**. The status
-bar stays the page's colour, back works from the bottom-right the way it does on
-the full-screen map, and the screen finally looks like it belongs to the same app
-as everything around it.
+thumb range — **back**, **mark all read**, and above it **clear all** — that grey
+out whenever there is nothing for them to do. The status bar stays the page's
+colour, back works from the bottom-right the way it does on the full-screen map,
+and the screen finally looks like it belongs to the same app as everything around
+it.
 
 It's a small change. But "the app bar can just be, well, not there" is one of
 those realisations that quietly raises the floor on every screen you touch
