@@ -8,7 +8,7 @@ canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-1
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/2026-10-13-flutter-linux-desktop-video-media-kit.png
 ---
 
-Video is the one media type in **tonGues** that cannot fail quietly. A photo that
+Video is the one media type in **GwinG** that cannot fail quietly. A photo that
 won't load falls back to an icon tile and most people never notice; a video that
 won't play looks like the whole app is broken. So when every video bubble on our
 Linux desktop build started showing **"Video expired"** — the label we reserve for
@@ -244,6 +244,6 @@ the same day — and the other half of running a desktop app is keeping people s
 in, which is its own story in
 [making the Linux session survive a reboot](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-linux-keyring-session-durability.html).
 If you're new here, start with
-[what tonGues is](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html).
+[what GwinG is](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html).
 
-— the tonGues team
+— the GwinG team

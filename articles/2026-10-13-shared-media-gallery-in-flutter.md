@@ -238,7 +238,7 @@ kit](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-flutter-
 covers playback. The [session durability work with the Linux
 keyring](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-linux-keyring-session-durability.html)
 is the other half of getting desktop right, and there's a [full overview of
-tonGues](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
+GwinG](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
 if you're new here.
 
 ## FAQ
@@ -265,4 +265,4 @@ The API is cursor-paginated by message id via `before`, newest-first. The Phase 
 loads the first page; wiring the grid's scroll to pull older pages is a small
 follow-up on the same cursor.
 
-— the tonGues team
+— the GwinG team

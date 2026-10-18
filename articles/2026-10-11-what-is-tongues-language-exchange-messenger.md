@@ -1,14 +1,14 @@
 ---
 layout: post
-title: What is tonGues? A language-exchange messenger with live translation
-description: tonGues is a language-exchange messenger — chat, voice and video calls, and on-the-fly translation and transcription, built with Flutter and FastAPI.
+title: What is GwinG? A language-exchange messenger with live translation
+description: GwinG is a language-exchange messenger — chat, voice and video calls, and on-the-fly translation and transcription, built with Flutter and FastAPI.
 tags: flutter, fastapi, showdev, webdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/what-is-tongues-brand.png
 ---
 
-**tonGues** is a language-exchange messenger. You chat the way you normally
+**GwinG** is a language-exchange messenger. You chat the way you normally
 would, and the app translates and transcribes messages in the background — so
 you and someone who speaks a different language can keep a real conversation
 going.
@@ -55,4 +55,4 @@ If that's your kind of thing, follow along. 👋
 - App write-ups: <https://frankmilvus.github.io/tongues-articles/>
 - dev.to: <https://dev.to/frankmilvus>
 
-— the tonGues team
+— the GwinG team

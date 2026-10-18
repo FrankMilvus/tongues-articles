@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Replacing a Flutter app bar with a FAB action stack
-description: "How we rebuilt the tonGues notification center without a toolbar: a FAB action stack, a zero-height AppBar, unique hero tags, and greyed-out disabled actions."
+description: "How we rebuilt the GwinG notification center without a toolbar: a FAB action stack, a zero-height AppBar, unique hero tags, and greyed-out disabled actions."
 tags: flutter, ux, showdev, webdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-replacing-a-flutter-app-bar-with-a-fab-action-stack.html
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/2026-10-13-replacing-a-flutter-app-bar-with-a-fab-action-stack.png
 ---
 
-The **tonGues** notification center is a short screen: reactions, profile views
+The **GwinG** notification center is a short screen: reactions, profile views
 and group events, most recent first. It opened from the Friends header's overflow
 menu and carried a perfectly ordinary `AppBar` — a "Notifications" title on the
 left, a **mark all read** and a **clear all** icon button on the right.
@@ -187,7 +187,7 @@ afterwards.
 If you want the surrounding context, the Friendship flow and the
 [connection status work](https://frankmilvus.github.io/tongues-articles/articles/2026-10-12-small-polish-connection-status-and-call-end-card.html)
 we shipped just before this are both written up on the blog, and there's a
-[full overview of tonGues](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
+[full overview of GwinG](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
 if you're new here.
 
 ## FAQ
@@ -212,4 +212,4 @@ It reserves the status-bar inset (so content doesn't slide under the clock) but 
 toolbar height, so the body starts right below the system status bar. We still
 wrap the body in `SafeArea(top: true)` for the remaining insets.
 
-— the tonGues team
+— the GwinG team

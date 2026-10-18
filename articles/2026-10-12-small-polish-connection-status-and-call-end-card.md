@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Small polish, better feel — a smoother connection status and a clear way out of a call
-description: Two small UI changes in tonGues today — the friends connection status now fades in instead of popping, and the call end card gained an explicit Back button.
+description: Two small UI changes in GwinG today — the friends connection status now fades in instead of popping, and the call end card gained an explicit Back button.
 tags: flutter, showdev, ux, webdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-12-small-polish-connection-status-and-call-end-card.html
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/2026-10-12-small-polish-connection-status-and-call-end-card.png
 ---
 
-Today's changes in **tonGues** were small on purpose. Neither is a headline
+Today's changes in **GwinG** were small on purpose. Neither is a headline
 feature — but they're the kind of thing you notice the moment it's right: the app
 feels calmer and gets out of your way.
 
@@ -34,7 +34,7 @@ A couple of details we cared about:
 
 ## A clear way out of a call
 
-When a call ends, tonGues shows a short **end card** — who it was with, how it
+When a call ends, GwinG shows a short **end card** — who it was with, how it
 ended, how long it lasted, and a **Call again** button. The card returns you to
 the app on its own after a few seconds (a little longer when there's a reason to
 read), and tapping anywhere dismisses it early.
@@ -50,4 +50,4 @@ can't quite leave. Big features get the attention, but the small ones are what
 make an app feel considered. We write them up as we ship them, so the polish
 gets its share of the credit too.
 
-— the tonGues team
+— the GwinG team

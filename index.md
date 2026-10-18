@@ -1,9 +1,9 @@
 ---
 layout: page
-title: tonGues articles
+title: GwinG articles
 ---
 
-Write-ups about building **tonGues** — a language-exchange messenger with chat,
+Write-ups about building **GwinG** — a language-exchange messenger with chat,
 voice and video calls, media messages, and on-the-fly translation and
 transcription. Flutter on the client, FastAPI + PostgreSQL on the server.
 

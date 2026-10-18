@@ -38,7 +38,7 @@
   <!-- header -->
   <circle cx="102" cy="106" r="9" fill="#ffc107"/>
   <text x="126" y="116" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700"
-        letter-spacing="7" fill="#ffc107">TONGUES · CHANGELOG</text>
+        letter-spacing="7" fill="#ffc107">GWING · CHANGELOG</text>
 
   <!-- headline + subtitle -->
     <text x="90" y="248" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="92" font-weight="800" fill="#ffffff" letter-spacing="-1">Shipping in the</text>

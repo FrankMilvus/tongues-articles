@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Building photo albums in Flutter
-description: "Building photo albums in Flutter: how tonGues layers an album group key over a one-row-per-media model, with an aspect-aware grid."
+description: "Building photo albums in Flutter: how GwinG layers an album group key over a one-row-per-media model, with an aspect-aware grid."
 tags: flutter, dart, ux, showdev
 published: true
 canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-photo-albums-in-flutter.html
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/2026-10-13-photo-albums-in-flutter.png
 ---
 
-Multi-select a handful of photos in **tonGues** and they land as a single grid
+Multi-select a handful of photos in **GwinG** and they land as a single grid
 bubble — one caption, one timestamp, one tick, one notification — instead of a
 full-size bubble per image. That's the **album bubble**, and it's the feature we
 shipped this week on top of a messenger that, until now, was built entirely around
@@ -19,9 +19,9 @@ the invariant the whole codebase leans on: *one message row = one media item*. T
 rest of this post is how we layered Flutter photo albums on top of that rule
 instead of around it.
 
-tonGues is a language-exchange messenger — chat, calls and live translation,
+GwinG is a language-exchange messenger — chat, calls and live translation,
 Flutter on the client, FastAPI and PostgreSQL behind it. If you're new here, start
-with the [overview of tonGues](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html).
+with the [overview of GwinG](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html).
 This post is one of a few we're writing today, alongside the
 [shared media gallery](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-shared-media-gallery-in-flutter.html)
 and the [Linux desktop video work](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-flutter-linux-desktop-video-media-kit.html).
@@ -254,4 +254,4 @@ Not yet. Media is already disabled in encrypted chats, so albums inherit the sam
 restriction and the same user-facing message. When photo and video sending arrives
 there, albums will come along for free.
 
-— the tonGues team
+— the GwinG team

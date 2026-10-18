@@ -13,7 +13,7 @@ lives in one token slot, and every local cache is global. That works until a
 real user needs two accounts on the same device — a personal profile and a
 work one, or two language-learning identities.
 
-In **tonGues**, a Flutter language-exchange messenger, we added **saved
+In **GwinG**, a Flutter language-exchange messenger, we added **saved
 accounts**: the app remembers up to five accounts and switches between them in
 one tap, without a browser or a Google round trip. The interesting part was not
 the picker. It was making "switch account" safe — the new session has to start

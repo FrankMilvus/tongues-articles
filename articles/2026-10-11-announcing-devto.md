@@ -1,7 +1,7 @@
 ---
 layout: post
-title: We're now publishing every tonGues change on dev.to
-description: A short note about our new habit — writing up every change we ship in tonGues, in public.
+title: We're now publishing every GwinG change on dev.to
+description: A short note about our new habit — writing up every change we ship in GwinG, in public.
 tags: devto, flutter, fastapi, webdev
 published: true
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/announcing-devto-brand.png
@@ -10,7 +10,7 @@ canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-1
 
 Hi dev.to 👋
 
-**tonGues** is a language-exchange messenger we're building — chat, voice and
+**GwinG** is a language-exchange messenger we're building — chat, voice and
 video calls, media messages, on-the-fly translation and transcription. The
 client is Flutter, the backend is FastAPI + PostgreSQL, and there's a small
 fleet of Redis, MinIO and AI services underneath.
@@ -31,4 +31,4 @@ interesting parts to ourselves.
 That's it for the first one. The next post will be about something we
 actually broke and fixed. 🙂
 
-— the tonGues team
+— the GwinG team

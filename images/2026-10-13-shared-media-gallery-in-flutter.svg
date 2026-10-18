@@ -38,13 +38,13 @@
   <!-- header -->
   <circle cx="102" cy="106" r="9" fill="#ffc107"/>
   <text x="126" y="116" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700"
-        letter-spacing="7" fill="#ffc107">TONGUES · FEATURE</text>
+        letter-spacing="7" fill="#ffc107">GWING · FEATURE</text>
 
   <!-- headline + subtitle -->
     <text x="90" y="204" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="84" font-weight="800" fill="#ffffff" letter-spacing="-1">A shared media</text>
     <text x="90" y="300" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="84" font-weight="800" fill="#ffffff" letter-spacing="-1">gallery for chats</text>
     <text x="90" y="396" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="84" font-weight="800" fill="#ffffff" letter-spacing="-1">and profiles</text>
     <rect x="92" y="431" width="120" height="8" rx="4" fill="#ffc107"/>
-    <text x="90" y="493" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="37" font-weight="400" fill="#c3c9e6">tonGues — a language-exchange</text>
+    <text x="90" y="493" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="37" font-weight="400" fill="#c3c9e6">GwinG — a language-exchange</text>
     <text x="90" y="543" font-family="Noto Sans, Liberation Sans, DejaVu Sans, sans-serif" font-size="37" font-weight="400" fill="#c3c9e6">messenger with live translation</text>
 </svg>

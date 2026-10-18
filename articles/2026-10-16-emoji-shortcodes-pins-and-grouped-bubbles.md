@@ -8,7 +8,7 @@ canonical_url: https://frankmilvus.github.io/tongues-articles/articles/2026-10-1
 image: https://raw.githubusercontent.com/FrankMilvus/tongues-articles/main/images/2026-10-16-emoji-shortcodes-pins-and-grouped-bubbles.png
 ---
 
-This week in **tonGues**, a Flutter chat app for language exchange backed by a
+This week in **GwinG**, a Flutter chat app for language exchange backed by a
 FastAPI + PostgreSQL server, we shipped a batch of chat work: an inline
 **:shortcode emoji autocomplete** in the composer, a per-user **"pin for me"**
 that sits alongside the existing conversation-wide pin, and **sender grouping**
@@ -84,7 +84,7 @@ loop.
 
 ## Private pins, next to conversation-wide pins
 
-tonGues already had one pin per conversation — the banner at the top of the
+GwinG already had one pin per conversation — the banner at the top of the
 chat that everyone sees. The new twist is a second, **private** pin that only
 you see, synced across your own devices. The two coexist on the same message.
 
@@ -218,4 +218,4 @@ the first non-ASCII unit and can never split a surrogate pair. Caret offsets and
 `String.length` are both in UTF-16 units in Flutter, so the replacement range is
 always valid.
 
-— the tonGues team
+— the GwinG team

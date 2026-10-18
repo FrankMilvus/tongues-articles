@@ -23,7 +23,7 @@ honest.
 
 ## The setup: Flutter Linux secure storage and a proof-gated fallback
 
-On desktop, tonGues persists the session through `flutter_secure_storage`. On
+On desktop, GwinG persists the session through `flutter_secure_storage`. On
 Android and iOS that is the OS keystore, which is always present. On desktop it
 is the OS *keyring* — libsecret / `gnome-keyring` on Linux, Credential Manager on
 Windows — and a keyring is a much less certain thing. It can be missing, locked,
@@ -198,7 +198,7 @@ If you want the surrounding work, we shipped a
 a [shared media gallery](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-shared-media-gallery-in-flutter.html)
 and the [Linux desktop video and media kit](https://frankmilvus.github.io/tongues-articles/articles/2026-10-13-flutter-linux-desktop-video-media-kit.html)
 the same day, and there's a
-[full overview of tonGues](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
+[full overview of GwinG](https://frankmilvus.github.io/tongues-articles/articles/2026-10-11-what-is-tongues-language-exchange-messenger.html)
 if you're new here.
 
 ## FAQ
@@ -228,4 +228,4 @@ No. It is a random per-boot identifier whose only use here is answering "is this
 different boot?" It is not tied to a user or a machine, and it carries no data
 beyond the boot boundary itself.
 
-— the tonGues team
+— the GwinG team
