@@ -1,6 +1,6 @@
-# GwinG articles
+# Folcadi articles
 
-Write-ups about building **GwinG** — a language-exchange messenger.
+Write-ups about building **Folcadi** — a language-exchange messenger.
 
 - Published site: <https://frankmilvus.github.io/tongues-articles/>
 - Cross-posted to dev.to: <https://dev.to/frankmilvus>
